@@ -1,0 +1,26 @@
+{
+  "name": "clase_javascript_ejemplos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "uno": "nodemon parte1.js -q",
+    "dos": "nodemon parte2.js -q",
+    "tres": "nodemon parte3.js -q",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FernanEd/clase_javascript_ejemplos.git"
+  },
+  "keywords": [],
+  "author": "Fernando_Ed <fernaned.bm@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FernanEd/clase_javascript_ejemplos/issues"
+  },
+  "homepage": "https://github.com/FernanEd/clase_javascript_ejemplos#readme",
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

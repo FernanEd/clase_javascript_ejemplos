@@ -4,9 +4,52 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+      }
+    </style>
     <title>Test</title>
   </head>
   <body>
-    <script src="script.js"></script>
+    <a href="index2.html">apis</a>
+    <section>
+      <h1 id="titulo">Ejemplos</h1>
+
+      <ul id="lista">
+        <li class="item">Jose</li>
+        <li class="item">Jaime</li>
+        <li class="item">Jorge</li>
+      </ul>
+
+      <button id="boton-contador">Hazme clic</button>
+
+      <form action="">
+        <label>Tu nombre</label>
+        <input type="text" />
+        <button type="submit">Saludame</button>
+      </form>
+
+      <select>
+        <option value="bien">Bien 👍</option>
+        <option value="mal">Mal 👎</option>
+      </select>
+
+      <div>
+        <p>Escribe espiraculo</p>
+        <input type="text" id="campoprueba" />
+      </div>
+    </section>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
+    <script src="parte2.js"></script>
   </body>
 </html>
